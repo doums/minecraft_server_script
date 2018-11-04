@@ -153,7 +153,7 @@ function help
      printf "\t${bold}stop${normal}\t\tstop server\n"
      printf "\t${bold}status${normal}\t\tserver status\n"
      printf "\t${bold}console${normal}\t\topen server console, press CTRL-a d to quit console mod\n"
-     printf "\t${bold}backup${normal}\n\t\tbackup server files\n"
+     printf "\t${bold}backup${normal}\t\tbackup server files\n"
      printf "\t${bold}cmd <server command>${normal}\n\t\tenter a server command\n"
      printf "\t${bold}help${normal}\t\tdisplay this help\n"
 }
