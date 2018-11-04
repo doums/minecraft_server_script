@@ -71,7 +71,7 @@ function backup
     fi
     echo "starting backup..."
     cmd say "starting backup..."
-    archive="backup_$(date +%d-%m-%Y_%H:%M:%S).tar.gz"
+    archive="backup_$(date +%d-%m-%Y_%H-%M-%S).tar.gz"
     if is_alive ;then
         cmd save-off
         cmd save-all
