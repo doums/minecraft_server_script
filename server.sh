@@ -69,6 +69,7 @@ function backup
     if [ ! -d "$backup_path" ] ;then
         ${sudo_cmd} mkdir "$backup_path"
     fi
+    log_cmd=true
     echo "starting backup..."
     cmd say "starting backup..."
     archive="backup_$(date +%d-%m-%Y_%H-%M-%S).tar.gz"
